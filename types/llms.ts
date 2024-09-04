@@ -12,9 +12,9 @@ export type LLMID =
 export type OpenAILLMID =
   | "gpt-4o-mini" // GPT-4o Mini
   | "gpt-4o" // GPT-4o
-  | "gpt-4-turbo-preview" // GPT-4 Turbo
+//  | "gpt-4-turbo-preview" // GPT-4 Turbo
   | "gpt-4-vision-preview" // GPT-4 Vision
-  | "gpt-4" // GPT-4
+//  | "gpt-4" // GPT-4
   | "gpt-3.5-turbo" // Updated GPT-3.5 Turbo
 
 // Google Models
@@ -29,8 +29,8 @@ export type AnthropicLLMID =
   | "claude-2.1" // Claude 2
   | "claude-instant-1.2" // Claude Instant
   | "claude-3-haiku-20240307" // Claude 3 Haiku
-  | "claude-3-sonnet-20240229" // Claude 3 Sonnet
-  | "claude-3-opus-20240229" // Claude 3 Opus
+//  | "claude-3-sonnet-20240229" // Claude 3 Sonnet
+//  | "claude-3-opus-20240229" // Claude 3 Opus
   | "claude-3-5-sonnet-20240620" // Claude 3.5 Sonnet
 
 // Mistral Models
